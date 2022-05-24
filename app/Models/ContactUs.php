@@ -13,5 +13,8 @@ class ContactUs extends Model
         'user_id',
         'link',
     ];
-}
 
+    public function user(){
+        return $this->belongsTo(User::class);
+    }
+}
