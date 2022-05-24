@@ -11,7 +11,10 @@ class ContactUs extends Model
 
     protected $fillable = [
         'user_id',
-        'link',
+        'telegram',
+        'instagram',
+        'email',
+        'github',
     ];
 
     public function user(){
